@@ -11,7 +11,7 @@ public class Main {
             System.out.println("1. Input Data");
             System.out.println("2. Tampilkan Data");
             System.out.println("3. Tampilkan Total & Rata-rata");
-            System.out.println("3. Keluar");
+            System.out.println("4. Keluar");
             System.out.print("Pilih menu (1-4): ");
             pilihan = scanner.nextInt();
 
