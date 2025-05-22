@@ -20,14 +20,4 @@ class NilaiUjianStack extends StackLinkedList {
         }
         return count == 0 ? 0 : (double) total / count;
     }
-
-    public void tampilkanNilai() {
-        Node current = top;
-        System.out.print("Nilai di Stack: ");
-        while (current != null) {
-            System.out.print(current.data + " ");
-            current = current.next;
-        }
-        System.out.println();
-    }
 }
