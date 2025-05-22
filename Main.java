@@ -56,9 +56,9 @@ public class Main {
                     break;
 
                 default:
-                    System.out.println("Pilihan tidak valid. Silakan pilih 1-3.");
+                    System.out.println("Pilihan tidak valid. Silakan pilih 1-4.");
             }
-        } while (pilihan != 3);
+        } while (pilihan != 4);
         scanner.close();
     }
 }
